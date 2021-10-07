@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  nest:
+    build: .
+    tty: true
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/workspace
