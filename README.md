@@ -16,3 +16,7 @@ docker compose exec db /bin/sh
 
 mysql -u user -p
 ```
+
+## 最初の起動時でできること
+
+`/users`でユーザーの一覧がとれる
